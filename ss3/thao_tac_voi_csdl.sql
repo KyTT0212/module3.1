@@ -81,7 +81,6 @@ select * from Books
  join Category on Books.id_c = Category.id_c
  join Authors on Books.id_a = Authors.id_a ;
 
--- id_b,name_b,page_size,Category.id_c,Authors.id_a 
 -- Lấy ra danh sách học viên đã từng mượn sách và sắp xếp danh sách theo tên từ a-z
 select * from Students 
 join Borrows on Students.id_s = Borrows.id_s
@@ -92,5 +91,5 @@ order by name_s;
 select name_b, count(Borrows.id_b) as count from Borrows 
 join Books on Books.id_b = Borrows.id_b
 group by Books.name_b
-order by count(Borrows.id_b) desc limit 2;
+order by count desc limit 2;
 
