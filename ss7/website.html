@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thiết kế bố cục trang web</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: Tahoma;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .head {
+        height: auto;
+        width: 60%;
+        text-align: center;
+        border: 1px solid black;
+        margin-top: 100px;
+    }
+
+    .head p {
+        font-size: 35px;
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+
+    .btb {
+        margin: 0 auto;
+        height: 50px;
+        width: 190px;
+        background: radial-gradient(circle,#9AECDB,#D6A2E8,#FEA47F);
+        color: white;
+        border: white;
+    }
+
+    span {
+        color: #00B0F0;
+        font-weight: bolder;
+    }
+    .button{
+        background-color: transparent;
+        position: relative;
+        overflow: hidden;
+        height: 60px;
+        width: 200px;
+        border: none;
+        font-size: 15px;
+        color: #fff;
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+
+    .button::before{
+        content: "";
+        background: linear-gradient(to right,
+        #ff7777,#d98eff,#77deff);
+        position: absolute;
+        inset: 0;
+        width: 200%;
+        z-index: -1;
+        transition: left  500ms;
+        margin: 20px 0;
+
+    }
+
+    .button:hover::before{
+        left: -100%;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="head">
+        <h1>MY PORTFOLIO</h1>
+        <hr>
+        <ol>
+            <li>All</li>
+            <li>Web App</li>
+            <li>UI/UX</li>
+            <li>Graphics Design</li>
+            <li>Mobile App</li>
+        </ol>
+
+    </div>
+</div>
+</body>
+</html>
