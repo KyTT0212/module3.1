@@ -102,7 +102,7 @@ select name_s, count(borrows.id_b) as `sl`
 from students 
 join borrows on students.id_s = borrows.id_s
 where students.id_s
-group by students.name_s
+group by students.id_s
 order by `sl` desc;
 
 
