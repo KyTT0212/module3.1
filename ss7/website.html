@@ -6,10 +6,61 @@
 </head>
 <style>
     * {
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
         box-sizing: border-box;
-        font-family: Tahoma;
+    }
+
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    [class*="col-"] {
+        float: left;
     }
 
     .container {
@@ -18,76 +69,92 @@
         align-items: center;
     }
 
-    .head {
+    .row::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+
+    .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 33.333%;
+    }
+
+    .header {
         height: auto;
         width: 60%;
         text-align: center;
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         margin-top: 100px;
     }
 
-    .head p {
-        font-size: 35px;
-        font-weight: normal;
-        margin-bottom: 20px;
+    .content {
+        line-height: 60px;
+        font-size: 30px;
     }
 
-    .btb {
-        margin: 0 auto;
-        height: 50px;
-        width: 190px;
-        background: radial-gradient(circle,#9AECDB,#D6A2E8,#FEA47F);
-        color: white;
-        border: white;
+    .bg-content2 {
+        width: 100%;
+        top: 70px;
+        height: 25px;
+        text-align: center;
+        margin-top: 28px;
+        font-size: 25px;
+        font-weight: 500;
     }
 
-    span {
-        color: #00B0F0;
-        font-weight: bolder;
+    .title {
+        color: #222222;
+        font-weight: bold;
+        font-size: 25px;
     }
-    .button{
-        background-color: transparent;
-        position: relative;
-        overflow: hidden;
-        height: 60px;
-        width: 200px;
-        border: none;
+
+    .text {
+        color: grey;
         font-size: 15px;
-        color: #fff;
-        border-radius: 10px;
-        cursor: pointer;
-
     }
 
-    .button::before{
-        content: "";
-        background: linear-gradient(to right,
-        #ff7777,#d98eff,#77deff);
-        position: absolute;
-        inset: 0;
-        width: 200%;
-        z-index: -1;
-        transition: left  500ms;
-        margin: 20px 0;
-
+    .pd{
+        padding: 15px;
+    }
+    .mg-top{
+        margin-top:8px ;
     }
 
-    .button:hover::before{
-        left: -100%;
+    span{
+        padding-left: 20px;
+        text-align: center;
     }
+
+    h1 {
+        text-decoration: none;
+        box-shadow: 0 3px #9AECDB;
+        padding: 16px;
+        transition: box-shadow .4s, color .3s;
+    }
+
+    h1:hover {
+        box-shadow: 0 3px tomato;
+    }
+
 </style>
 <body>
 <div class="container">
-    <div class="head">
+    <div class="row header">
         <h1>MY PORTFOLIO</h1>
-        <hr>
-        <ol>
-            <li>All</li>
-            <li>Web App</li>
-            <li>UI/UX</li>
-            <li>Graphics Design</li>
-            <li>Mobile App</li>
-        </ol>
+        <div class="row bg-content2">
+            <span>All</span>
+            <span>Web App</span>
+            <span> UI/UX</span>
+            <span> Graphics Design</span>
+            <span>Mobile App</span>
+            <span>Branding</span>
+            <span>Marketing</span>
+        </div>
+        <div class="row ">
+            <img src="https://nguoinoitieng.tv/images/nnt/96/0/bbi0.jpg" style="width: 93%; margin-top: 48px">
+        </div>
 
     </div>
 </div>

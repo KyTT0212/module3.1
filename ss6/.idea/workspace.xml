@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44863924-e5fa-462b-a9c6-f0e13e999372" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7/website.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss7/website.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -76,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677571175895</updated>
       <workItem from="1677571180188" duration="756000" />
+      <workItem from="1677642171581" duration="1000" />
     </task>
     <servers />
   </component>

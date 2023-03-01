@@ -1,3 +1,4 @@
+drop database if exists case_study_DB;
 create database case_study_DB;
 use case_study_DB;
 
