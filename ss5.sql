@@ -8,7 +8,7 @@ drop index index_name_b on books;
 create view view_borows_book as select books.name_b, count(id_br) as sl
 from books
 join borrows on books.id_b= borrows.id_b
-group by books.name_b
+group by books.id_b
 order by sl asc;
 
 -- Viết 1 stored procedure thêm mới book trong database với tham số kiểu IN--
