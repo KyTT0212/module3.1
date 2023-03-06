@@ -22,3 +22,5 @@ delimiter ;
 
 -- insert into books(id_b, name_b, page_size, id_a, id_c) values (6,'Tat',44,4,2);
 call add_books(7,'Cam',45,3,2);
+
+
