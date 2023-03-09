@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<decorators defaultdir = "/decorators">
+<!--    ->"admin.jsp"(page="admin.jsp"),"web.jsp"( page="web.jsp") nằm trong foder "/decorators"-->
+
+    <!-- Any urls that are excluded will never be decorated by Sitemesh -->
+
+<!--    những cái nào nằm trong tag <excluded>(loại bỏ) thì ta định nghĩa nó sẽ không apply bất kì giao diện gì-->
+    <excluded>
+<!--        <pattern>/404-page.html</pattern>-->
+        <pattern>/api*</pattern>
+<!--        -> những file bắt đầu bằng "api" sẽ không đc apply bất kì giao diện nào vô cả-->
+
+<!--        <pattern>/dang-nhap</pattern>-->
+    </excluded>
+
+    <!-- apply Sitemesh default template -->
+    <decorater name="admin" page="admin.jsp">
+        <pattern>/admin*</pattern>
+<!--        -> những url bắt đầu bằng "admin" ta apply giao diện admin vào-->
+<!--        -> khi apply admin ta sẽ có 1 trang "admin.jsp"(page="admin.jsp"-14)-->
+<!--        ->page="admin.jsp" còn gọi là master layout hay page pattern-->
+    </decorater>
+    <decorater name="web" page="web.jsp">
+        <pattern>/*</pattern>
+    </decorater>
+</decorators>
