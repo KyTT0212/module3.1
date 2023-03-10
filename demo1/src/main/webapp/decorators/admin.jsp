@@ -28,7 +28,7 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="<c:url value='/template/paging/jquery.twbsPagination.js' />"></script>
 
-    <script src="<c:url value='/ckeditor/ckeditor.js' />"></script>
+<%--    <script src="<c:url value='/ckeditor/ckeditor.js' />"></script>--%>
 </head>
 <body class="no-skin">
 <!-- header -->
@@ -39,9 +39,9 @@
     <script type="text/javascript">
         try{ace.settings.check('main-container' , 'fixed')}catch(e){}
     </script>
-    <!-- header -->
+    <!-- menu -->
     <%@ include file="/common/admin/menu.jsp" %>
-    <!-- header -->
+    <!-- menu -->
 
     <dec:body/>
 

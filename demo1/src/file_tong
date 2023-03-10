@@ -1,0 +1,7 @@
+các bước tạo 1 sitemesh decorator
+-b1:thêm libry
+-b2:xây dựng decorators.xml
+    ->đầy template của admin,web
+    ->tạo master layout(decorators)
+    ->tạo common
+-b3:sau khi ok hết vào web.xml thêm cái phần filter

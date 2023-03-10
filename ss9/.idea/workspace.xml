@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e514ff4c-ee93-4789-9ad7-0801b6f16db0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LINK/C.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LINK/Sitemesh.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/controller/admin/AdminServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/controller/web/WebServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/model/UserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/WEB-INF/decorators.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/common/admin/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/common/admin/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/common/admin/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/common/cong dung" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/common/taglib.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/common/web/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/common/web/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/decorators/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/decorators/cong dung" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/decorators/web.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/avatars/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/avatars/avatar1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/avatars/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/avatars/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/avatars/avatar4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/avatars/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/avatars/profile-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/avatars/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/ace-ie.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/ace-part2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/ace-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/ace.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/bootstrap-duallistbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/bootstrap-editable.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/bootstrap-multiselect.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/bootstrap-timepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/chosen-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/chosen-sprite@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/chosen.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/colorbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/colorpicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/daterangepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/dropzone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/images/border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/images/controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/images/loading_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/images/meteorshower2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/images/overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/images/pattern.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/img/alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/img/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/img/saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/jquery-ui.custom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/jquery.gritter.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/prettify.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/select2-spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/select2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/ui.jqgrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/css/ui.jqgrid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/font-awesome/4.1.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/font-awesome/4.2.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/fonts/fonts.googleapis.com.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/email1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/email2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/email3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/email4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/gallery/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/gallery/image-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/gallery/image-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/gallery/image-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/gallery/image-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/gallery/image-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/gallery/image-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/gallery/thumb-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/gallery/thumb-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/gallery/thumb-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/gallery/thumb-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/gallery/thumb-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/gallery/thumb-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/spritemap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/images/spritemap@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/img/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/ace-editable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/ace-elements.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/ace-extra.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/ace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/bootbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/bootstrap-editable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/bootstrap-markdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/bootstrap-multiselect.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/bootstrap-tag.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/bootstrap-timepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/bootstrap-wysiwyg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/chosen.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/dataTables.colVis.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/dataTables.tableTools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/daterangepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/dropzone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/fuelux.spinner.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/fuelux.tree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/fuelux.wizard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/grid.locale-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery-ui.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.1.11.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.autosize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.bootstrap-duallistbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.colorbox-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.colorbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.easypiechart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.flot.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.flot.pie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.flot.resize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.gritter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.hotkeys.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.inputlimiter.1.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.jqGrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.knob.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.maskedinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.mobile.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.nestable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.raty.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.ui.touch-punch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/jquery1x.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/markdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/prettify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/spin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/js/typeahead.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/assets/swf/copy_csv_xls_pdf.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/content-slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/dropzone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/email-confirmation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/email-contrast.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/email-navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/email-newsletter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/error-404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/error-500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/form-elements-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/form-elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/form-wizard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/inbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/jqgrid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/jquery-ui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/mobile-menu-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/mobile-menu-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/mobile-menu-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/nestable-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/top-menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/treeview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/two-menu-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/two-menu-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/widgets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/admin/ace-master/ace-master/wysiwyg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/cong dung" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap-5.1.3-dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/view/admin/homeAdmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/view/web/homeWeb.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/file_tong" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/ss9-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ss9/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.1.3-dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/out/production/untitled1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/decoratoes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/decorators.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/webapp/ckeditor/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/webapp/template/web/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/webapp/common/web/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/common/web/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/webapp/common/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/common/web/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/webapp/decorators/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/decorators/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/webapp/view/admin/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/view/admin/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss5.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../ss5.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss8/boostrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss8/boostrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ss9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ss9" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MlYhCwt86pIiU2Z9WTXbcmxit2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/codegym/module3.1/ss9/src/main/webapp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\codegym\module3.1\ss9\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.71" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.71" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : com.example : ss9-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="3f5b9008-184a-48c2-9003-006216b3cd41" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60654" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : ss9-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44e9656c-18a1-49f1-a6fc-5512e46ec3d3" name="Changes" comment="" />
+      <created>1678343754475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678343754475</updated>
+      <workItem from="1678343755734" duration="11541000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
