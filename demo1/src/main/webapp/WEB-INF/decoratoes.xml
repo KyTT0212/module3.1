@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--mặc định foder decorators(defaultdir="/decorators")
+-> bất kì file nào nằm trong defaultdir="/decorators" đều thuộc file decorators
+-> như bài này thì  page="admin.jsp"  page="web.jsp" đều thuộc file decorators-->
+<decorators defaultdir="/decorators">
+    <!-- Any urls that are excluded will never be decorated by Sitemesh -->
+<!--    định nghĩa:những cái URL nào nằm trong tag excludes(loại bỏ) thì nó sẽ không apply bất kì giao diện gì-->
+    <excludes>
+        <pattern>/api*</pattern>
+    </excludes>
+
+    <!-- apply Sitemesh default template -->
+định nghĩa:khi apply giao diện admin ta sẽ có 1 trang(page="admin.jsp")->page pattern
+    <decorator name="admin" page="admin.jsp">
+        <pattern>/admin*</pattern>
+    </decorator>
+
+    <decorator name="web" page="web.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+
+    <decorator name="login" page="login.jsp">
+        <pattern>/dang-nhap</pattern>
+    </decorator>
+</decorators>
