@@ -17,7 +17,8 @@ public class WebServlet extends HttpServlet {
 //        dùng request.setAttribute("name đại diện cho cái abc",abc) để đẩy dữ liệu ra view
         request.setAttribute("name",userModel);
 //        ----sử dụng request.getRequestDispatcher để gọi tới trang jsp mong muốn
-        request.getRequestDispatcher("/view/web/web.jsp").forward(request,response);
+//        request.getRequestDispatcher("/view/web/web.jsp").forward(request,response);
+        request.getRequestDispatcher("/decorators/web.jsp").forward(request,response);
     }
 
     @Override

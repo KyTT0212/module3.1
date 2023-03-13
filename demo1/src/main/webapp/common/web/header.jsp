@@ -26,19 +26,27 @@
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
-                <c:if test="${not empty USERMODEL}">
+<%--                <c:if test="${not empty USERMODEL}">--%>
                 <li class="nav-item">
-                    <a class="nav-link" href='#'>Wellcome, ${USERMODEL.fullName}</a>
+<%--                    <a class="nav-link" href='#'>Wellcome, ${USERMODEL.fullName}</a>--%>
+<%--                    Wellcome, ${USERMODEL.fullName}  ==>       About--%>
+                    <a class="nav-link" href='#'>About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href='<c:url value="/thoat?action=logout"/>'>Thoát</a>
+<%--                    <a class="nav-link" href='<c:url value="/thoat?action=logout"/>'>Thoát</a>--%>
+<%--                    <c:url value="/thoat?action=logout"/>  ==> #--%>
+<%--                    Thoát ==> Services--%>
+                    <a class="nav-link" href='#'>Services</a>
                 </li>
-                </c:if>
-                <c:if test="${empty USERMODEL}">
+<%--                </c:if>--%>
+<%--                <c:if test="${empty USERMODEL}">--%>
                     <li class="nav-item">
-                        <a class="nav-link" href='<c:url value="/dang-nhap?action=login"/>'>Đăng nhập</a>
+<%--                        <a class="nav-link" href='<c:url value="/dang-nhap?action=login"/>'>Đăng nhập</a>--%>
+<%--                        <c:url value="/dang-nhap?action=login"/> ==>       #--%>
+<%--                        Đăng nhập ==> Contact--%>
+                        <a class="nav-link" href='#'>Contact</a>
                     </li>
-                </c:if>
+<%--                </c:if>--%>
             </ul>
         </div>
     </div>

@@ -1,0 +1,29 @@
+decorators:
+Những thành phần trong mẫu thiết kế Decorator:
+
+Component: giao diện (interface) chung để các đối tượng cần thêm chức năng trong quá trình chạy thì triển khai giao diện này.
+ConcreteComponent : Một cài đặt cho giao diện Component mà nó định nghĩa một đối tượng cần thêm các chức năng trong quá trình chạy.
+Decorator : một lớp trừu tượng dùng để duy trì một tham chiếu của đối tượng thành phần và đồng thời cài đặt các thành phần của giao diện.
+ConcreteDecorator : Một cài đặt của Decorator, nó cài đặt thêm các thành phần vào đầu của các đối tượng thành phần.
+
+công dụng:
+- là master layout
+- chứa thiết kế,code những phần chung như header,footer,menu...
+- khi các phâ con gọi dùng lại thì phần chung đã được cố định và chỉ cần thay đổi phần body(trong phần này thì con chính là ở web.jsp)
+
+
+
+
+common:
+công dụng:
+-nơi chứa file chung
+
+
+
+template:
+công dụng:
+-nơi chứa css,bootstrap,jquery,ace-master...
+
+
+
+
