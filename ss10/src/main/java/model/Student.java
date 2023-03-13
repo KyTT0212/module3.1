@@ -1,21 +1,21 @@
 package model;
 
-public class ListStudent {
+public class Student {
     private Integer maHV;
     private String name;
     private Integer gioiTinh;
     private Double diem;
 
-    public ListStudent() {
+    public Student() {
     }
 
-    public ListStudent(String name, Integer gioiTinh, Double diem) {
+    public Student(String name, Integer gioiTinh, Double diem) {
         this.name = name;
         this.gioiTinh = gioiTinh;
         this.diem = diem;
     }
 
-    public ListStudent(Integer maHV, String name, Integer gioiTinh, Double diem) {
+    public Student(Integer maHV, String name, Integer gioiTinh, Double diem) {
         this.maHV = maHV;
         this.name = name;
         this.gioiTinh = gioiTinh;
