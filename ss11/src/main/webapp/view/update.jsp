@@ -9,30 +9,80 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Update</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Update</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        h1 {
+            text-align: center;
+            margin-top: 18px;
+        }
+
+        .container {
+            border: 1px solid;
+            padding: 13px 20px;
+            max-width: 684px;
+        }
+    </style>
 </head>
-<body>
+<body style="background-image: url('https://mega.com.vn/media/news/2707_hinh-nen-lam-slide-chuyen-nghiep.jpg');background-size: cover">
 <form action="/Book?action=update" method="post">
-  <lable for="title">title</lable>
-  <input type="text" name="title" id="title" class="form-control" value="${book.title}">
+    <div>
+        <h1>Bảng chỉnh sửa thông tin</h1>
+        <div class="container" style="background: aliceblue">
+            <input type="hidden" name="id" id="id" class="form-control" value="${book.id}">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text"
+                       class="form-control" name="title" id="title" value="${book.title}">
+            </div>
+            <div class="form-group">
+                <label for="pageSize">Page Size</label>
+                <input type="text"
+                       class="form-control" name="page" id="pageSize" value="${book.pageSize}">
+            </div>
+            <div class="form-group">
+                <label for="author">Author</label>
+                <input type="text"
+                       class="form-control" name="author" id="author" value="${book.author}">
+            </div>
+            <div>
+                <span>Category</span>
+                <select name="category" id="category" style=" margin-left: 5px;">
+                    <option value="0" disabled="disabled">--Thể loại--</option>
+                    <option value="1">Pháp luật</option>
+                    <option value="2">Công nghệ</option>
+                    <option value="3">Nghệ thuật</option>
+                    <option value="4">Tiểu thuyết</option>
+                    <option value="5">Tâm linh</option>
+                    <option value="6" selected="selected">Truyện</option>
+                </select>
+            </div>
+            <input type="submit" class="btn btn-outline-info" style="width: 14%;margin: 20px 43% 0;}" value="Update">
 
-  <lable for="pageSize">pageSize</lable>
-  <input type="text" name="pageSize" id="pageSize" class="form-control" value="${book.pageSize}">
 
-  <lable for="author">author</lable>
-  <input type="text" name="author" id="author" class="form-control" value="${book.author}">
+            <%--  <input type="hidden" name="id" id="id" class="form-control" value="${book.id}">--%>
 
-  <lable for="category">category</lable>
-  <input type="text" name="category" id="category" class="form-control" value="${book.category}">
+            <%--  <lable for="title">title</lable>--%>
+            <%--  <input type="text" name="title" id="title" class="form-control" value="${book.title}">--%>
 
-  <input type="submit" value="Cập nhập sản phẩm">
+            <%--  <lable for="pageSize">pageSize</lable>--%>
+            <%--  <input type="text" name="pageSize" id="pageSize" class="form-control" value="${book.pageSize}">--%>
+
+            <%--  <lable for="author">author</lable>--%>
+            <%--  <input type="text" name="author" id="author" class="form-control" value="${book.author}">--%>
+
+            <%--  <lable for="category">category</lable>--%>
+            <%--  <input type="text" name="category" id="category" class="form-control" value="${book.category}">--%>
+
+            <%--  <input type="submit" value="Cập nhập sản phẩm">--%>
+        </div>
+
 </form>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

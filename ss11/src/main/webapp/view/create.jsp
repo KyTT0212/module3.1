@@ -31,10 +31,10 @@
         }
     </style>
 </head>
-<body>
+<body style="background-image: url('https://mega.com.vn/media/news/2707_hinh-nen-lam-slide-chuyen-nghiep.jpg');background-size: cover">
 <form action="/Book?action=create" method="post">
     <h1>Bảng thêm mới sách</h1>
-    <div class="container">
+    <div class="container" style="background: aliceblue">
         <div class="form-group">
             <label for="title">Title</label>
             <input type="text"
@@ -62,7 +62,7 @@
                 <option value="6">Truyện</option>
             </select>
         </div>
-        <button type="submit" class="btn btn-primary" style="width: 14%;margin: 20px 43% 0;}">Submit</button>
+        <button type="submit" class="btn btn-outline-info" style="width: 14%;margin: 20px 43% 0;}">Submit</button>
 <%--        <input type="submit" value="Tạo mới">--%>
     </div>
 </form>

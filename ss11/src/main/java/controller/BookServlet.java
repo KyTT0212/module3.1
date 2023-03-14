@@ -17,6 +17,8 @@ public class BookServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
+        response.setContentType("text/html;charset=UTF-8");
         String action = request.getParameter("action");
         if (action == null) {
             action = "";
@@ -31,6 +33,7 @@ public class BookServlet extends HttpServlet {
                 break;
             case "update":
                 updateForm(request, response);
+
                 break;
             default:
                 List<Book> bookList = serviceBook.findAll();
@@ -43,14 +46,24 @@ public class BookServlet extends HttpServlet {
 
     private void updateForm(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int id = Integer.parseInt(request.getParameter("id"));
-        Book book = serviceBook.findById(id);
-
+        Book book = this.serviceBook.findById(id);
         request.setAttribute("book", book);
         request.getRequestDispatcher("/view/update.jsp").forward(request, response);
     }
 
     private void deleteForm(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.sendRedirect("/view/delete.jsp");
+        Integer id = Integer.parseInt(request.getParameter("id"));
+        for (int i = 0; i <serviceBook.findAll().size() ; i++) {
+           if (serviceBook.findAll().get(i).getId()==id){
+//               try {
+//                   request.getRequestDispatcher("/view/delete.jsp").forward(request,response);
+//               } catch (ServletException e) {
+//                   throw new RuntimeException(e);
+//               }
+               serviceBook.findAll().remove(i);
+           }
+        }
+        response.sendRedirect("/Book");
     }
 
     private void createForm(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -59,6 +72,8 @@ public class BookServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
+        response.setContentType("text/html;charset=UTF-8");
         String action = request.getParameter("action");
         if (action == null) {
             action = "";
@@ -72,6 +87,7 @@ public class BookServlet extends HttpServlet {
                 break;
             case "update":
                 update(request,response);
+                break;
             default:
                 break;
         }
@@ -81,44 +97,42 @@ public class BookServlet extends HttpServlet {
     private void update(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int id = Integer.parseInt(request.getParameter("id"));
         String title = request.getParameter("title");
-        Integer page = Integer.parseInt(request.getParameter("page"));
+        int page = Integer.parseInt(request.getParameter("page"));
         String author = request.getParameter("author");
-        Integer category = Integer.parseInt(request.getParameter("category"));
+        int category = Integer.parseInt(request.getParameter("category"));
 
-        Book book = serviceBook.findById(id);
+        Book book=new Book(id,title,page,author,category);
 
-        if (book==null){
-            request.getRequestDispatcher("/view/error404.jsp").forward(request,response);
-        }else {
-            book.setTitle(title);
-            book.setPageSize(page);
-            book.setAuthor(author);
-            book.setCategory(category);
-            serviceBook.update(book);
-            response.sendRedirect("/Book");
-        }
-
-
+        serviceBook.update(id,book);
+        response.sendRedirect("/Book");
     }
 
     private void delete(HttpServletRequest request, HttpServletResponse response) {
-        int id = Integer.parseInt(request.getParameter("id"));
-        Book book = serviceBook.findById(id);
+//        Integer id = Integer.parseInt(request.getParameter("id"));
+//        for (int i = 0; i < serviceBook.findAll().size(); i++) {
+//            if (id == serviceBook.findAll().get(i).getId()){
+//                serviceBook.findAll().remove(i);
+//            }
+//        }
 
-        if (book == null) {
-            try {
-                response.sendRedirect("/view/error404.jsp");
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-        } else {
-            serviceBook.delete(book);
-            try {
-                response.sendRedirect("/Book");
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-        }
+
+//        int id = Integer.parseInt(request.getParameter("id"));
+//        Book book = serviceBook.findById(id);
+//
+//        if (book == null) {
+//            try {
+//                response.sendRedirect("/view/error404.jsp");
+//            } catch (IOException e) {
+//                throw new RuntimeException(e);
+//            }
+//        } else {
+//            serviceBook.delete(book);
+//            try {
+//                response.sendRedirect("/Book");
+//            } catch (IOException e) {
+//                throw new RuntimeException(e);
+//            }
+//        }
     }
 
     private void create(HttpServletRequest request, HttpServletResponse response) {

@@ -8,6 +8,6 @@ public interface IServiceBook {
     List<Book> findAll();
     Book findById(int id);
     void create(Book book);
-    void update(Book book);
-    void delete(Book book);
+    void update(int id,Book book);
+    void delete(int id);
 }

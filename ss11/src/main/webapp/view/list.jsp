@@ -19,15 +19,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
-        .table tr:nth-child(even){
-            background-color:white; }
+        .table tr:nth-child(even) {
+            background-color: white;
+        }
 
-        .table tr:nth-child(odd){
-            background-color:#eee; }
+        .table tr:nth-child(odd) {
+            background-color: #eee;
+        }
 
-        th{
-            background-color:#718093; color: aliceblue
+        th {
+            background-color: #718093;
+            color: aliceblue
         }
 
         table, td, th {
@@ -36,7 +42,7 @@
             text-align: center;
         }
 
-        h1{
+        h1 {
             text-align: center;
             margin-top: 20px
         }
@@ -44,7 +50,8 @@
 </head>
 <body>
 <h1>BẢNG DANH SÁCH</h1>
-<a href="/Book?action=create" class="btn btn-secondary mb-3" style="margin-right: 15%;margin-left: 73%">Thêm mới sản phẩm</a>
+<a href="/Book?action=create" class="btn btn-secondary mb-3" style="margin-right: 15%;margin-left: 73%">Thêm mới sản
+    phẩm</a>
 <div class="container" style="margin-top: 13px">
     <table class="table">
         <thead>
@@ -73,8 +80,30 @@
                     <c:if test="${book.category == 6}">Truyện</c:if>
                 </td>
                 <td>
-                    <a href="">UPDATE</a>
-                    <a href="/Book=action?delete&id=${book.id}">DELETE</a>
+                        <%--                    <a flag="info"--%>
+                        <%--                       class="dt-button buttons-colvis btn btn-white btn-primary btn-bold" data-toggle="tooltip"--%>
+                        <%--&lt;%&ndash;                       data-toggle="tooltip" -> hiệu ứng hover hiện tên &ndash;%&gt;--%>
+                        <%--                       title='Thêm bài viết' href=''>--%>
+                        <%--                        <span>--%>
+                        <%--                            <i class="fa fa-plus-circle bigger-110 purple"></i> thêm--%>
+                        <%--                        </span>--%>
+                        <%--                    </a>--%>
+                    <a class="btn btn-sm btn-primary btn-edit" data-toggle="tooltip"
+                       title="Chỉnh sửa" href='/Book?action=update&id=${book.id}'>
+                        <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                    </a>
+
+                            <a class="btn btn-sm btn-primary btn-edit" data-toggle="tooltip"
+                                   title="Xóa" href='/Book?action=delete&id=${book.id}' style="background: #e74c3c;border-color: #e74c3c;">
+                                <i class="fa fa-trash-o bigger-110 pink"></i>
+                            </a>
+<%--                    <button id="btnDelete" type="button"--%>
+<%--                            class="dt-button buttons-html5 btn btn-white btn-primary btn-bold" data-toggle="tooltip"--%>
+<%--                            title='Xóa bài viết' >--%>
+<%--                        <span>--%>
+<%--                            <i class="fa fa-trash-o bigger-110 pink"></i>--%>
+<%--                        </span>--%>
+<%--                    </button>--%>
                 </td>
             </tr>
         </c:forEach>

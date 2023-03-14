@@ -25,12 +25,12 @@ public class ServiceBook implements IServiceBook {
     }
 
     @Override
-    public void update(Book book) {
-
+    public void update(int id,Book book) {
+        repositoryBook.update(id,book);
     }
 
     @Override
-    public void delete(Book book) {
-        repositoryBook.delete(book);
+    public void delete(int id) {
+        repositoryBook.delete(id);
     }
 }
