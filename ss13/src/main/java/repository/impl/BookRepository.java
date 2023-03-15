@@ -6,10 +6,7 @@ import model.Books;
 import model.Category;
 import repository.IBookRepository;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -19,17 +16,17 @@ public class BookRepository implements IBookRepository {
     @Override
     public List<Books> findALL() {
         Connection connection = BaseRepository.getConnection();
-        PreparedStatement preparedStatement = null;
+        CallableStatement statement = null;
         ResultSet resultSet = null;
         List<Books> booksList = new ArrayList<>();
 
         if (connection != null){
             try {
 //                preparedStatement = connection.prepareStatement("select * from books");
-                preparedStatement = connection.prepareStatement("select * from books b" +
+                statement = connection.prepareCall("select * from books b" +
                         " join authors a on b.id_a = a.id_a" +
                         " join category c on c.id_c = b.id_c");
-                resultSet = preparedStatement.executeQuery();
+                resultSet = statement.executeQuery();
 
                 Books books = null;
                 while (resultSet.next()){
@@ -72,7 +69,7 @@ public class BookRepository implements IBookRepository {
 
         if (connection != null){
             try {
-                preparedStatement = connection.prepareStatement("insert into books (id_b, name_b, page_size,id_a, id_c) values (?,?,?,?,?);");
+                preparedStatement = connection.prepareStatement("call add_book(?,?,?,?,?);");
 
                 preparedStatement.setInt(1,books.getId());
                 preparedStatement.setString(2,books.getName());
@@ -102,13 +99,13 @@ public class BookRepository implements IBookRepository {
     @Override
     public void delete(int id) {
         Connection connection = BaseRepository.getConnection();
-        PreparedStatement preparedStatement = null;
+        CallableStatement statement = null;
         if (connection != null) {
             try {
-                preparedStatement = connection.prepareStatement("delete from books where id_b = ?");
+                statement = connection.prepareCall("call delete_book(?);");
 
-                preparedStatement.setInt(1,id);
-                preparedStatement.executeUpdate();
+                statement.setInt(1,id);
+                statement.executeUpdate();
             } catch (SQLException e) {
                 throw new RuntimeException(e);
             }

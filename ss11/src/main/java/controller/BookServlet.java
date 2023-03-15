@@ -60,7 +60,7 @@ public class BookServlet extends HttpServlet {
 //               } catch (ServletException e) {
 //                   throw new RuntimeException(e);
 //               }
-               serviceBook.findAll().remove(i);
+               serviceBook.delete(i);
            }
         }
         response.sendRedirect("/Book");
