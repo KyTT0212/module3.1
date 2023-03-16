@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ed9b600-57fe-49cd-b0ba-c3a3b258d215" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ss8/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/out/production/demo/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TraillerMovie/TraillerMovie" beforeDir="false" afterPath="$PROJECT_DIR$/../TraillerMovie/TraillerMovie" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/codegym/module3.1/untitled",
+    "last_opened_file_path": "D:/codegym/module3.1/untitled1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678266027072</updated>
       <workItem from="1678266028303" duration="5311000" />
+      <workItem from="1678934510648" duration="35000" />
     </task>
     <servers />
   </component>

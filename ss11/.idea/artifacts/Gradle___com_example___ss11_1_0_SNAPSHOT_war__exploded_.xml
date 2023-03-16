@@ -12,6 +12,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/ss11-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
       </element>
+      <element id="javaee-facet-resources" facet="ss11.main/web/Web Gradle : ss11-1.0-SNAPSHOT.war" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="ss11.main" />
@@ -21,7 +22,6 @@
           <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="ss11.main/web/Web Gradle : ss11-1.0-SNAPSHOT.war" />
     </root>
   </artifact>
 </component>

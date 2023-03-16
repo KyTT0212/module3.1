@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5454fa9d-34c8-4e92-b543-9185d1eb3885" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../LINK/Sitemesh.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LINK/decorater.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LINK/sitemesh decorater.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LINK/sitemesh decorater.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LINK/taglib.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LINK/taglib.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/AdminServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/WebServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/WebServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/common/admin/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/common/admin/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/common/admin/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/common/admin/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/common/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/common/web/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/decorators/web.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/decorators/web.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TraillerMovie/TraillerMovie" beforeDir="false" afterPath="$PROJECT_DIR$/../TraillerMovie/TraillerMovie" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +56,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/codegym/module3.1/ss9",
+    "last_opened_file_path": "D:/codegym/module3.1/demo2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -163,6 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678398303518</updated>
       <workItem from="1678398304853" duration="23924000" />
+      <workItem from="1678934353515" duration="123000" />
     </task>
     <servers />
   </component>
