@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0674fb1-48f2-4bcf-82c9-c35393ba291a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SS12/.idea/modules/SS12.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS12/.idea/modules/SS12.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS12/SS12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss11/.idea/modules/ss11.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss11/.idea/modules/ss11.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss11/ss11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TraillerMovie" beforeDir="false" afterPath="$PROJECT_DIR$/TraillerMovie" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TraillerMovie/src/main/java/com/traillermovie/repository/homeRepository/HomeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/TraillerMovie/src/main/java/com/traillermovie/repository/homeRepository/HomeRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TraillerMovie/src/main/java/com/traillermovie/repository/navigationRepository/NavigationRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/TraillerMovie/src/main/java/com/traillermovie/repository/navigationRepository/NavigationRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_module3/C1122G1-Repo-FE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +37,12 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TraillerMovie" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -54,13 +71,19 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/codegym/module3.1/TraillerMovie",
+    "last_opened_file_path": "D:/codegym/module3.1/demo2",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "application.passwordSafe",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.71">
@@ -170,7 +193,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678891999793</updated>
-      <workItem from="1678892001065" duration="1937000" />
+      <workItem from="1678892001065" duration="6645000" />
     </task>
     <servers />
   </component>

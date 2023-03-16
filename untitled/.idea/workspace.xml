@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5d78385-dc6b-49ce-b402-4896bb949f90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ss8/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/out/production/demo/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/com/company/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS12/.idea/modules/SS12.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS12/.idea/modules/SS12.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS12/SS12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TraillerMovie/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss11/.idea/modules/ss11.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss11/.idea/modules/ss11.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss11/ss11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TraillerMovie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TraillerMovie/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TraillerMovie/TraillerMovie" beforeDir="false" afterPath="$PROJECT_DIR$/../TraillerMovie/TraillerMovie" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_module3/C1122G1-Repo-FE" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/codegym/module3.1/demo",
+    "last_opened_file_path": "D:/codegym/module3.1/untitled1",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -142,6 +141,7 @@
       <workItem from="1678258629493" duration="29000" />
       <workItem from="1678263268587" duration="220000" />
       <workItem from="1678278407112" duration="35000" />
+      <workItem from="1678933513945" duration="20000" />
     </task>
     <servers />
   </component>
